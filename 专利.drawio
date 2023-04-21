@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T11:43:15.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZfunJTHAkNip_3ODBM2C" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T11:44:08.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IC5PatzTxrXlXtHCgOSN" version="21.2.1" type="github">
   <diagram name="Page-1" id="kI8muQVpeAFegMSgDHn2">
     <mxGraphModel dx="1434" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZrWV2Vu18TWaGDWnjMu-1" target="xZrWV2Vu18TWaGDWnjMu-2">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-1" target="xZrWV2Vu18TWaGDWnjMu-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;获取时间敏感流信息和网络信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;获取时间敏感流信息和网络信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="60" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZrWV2Vu18TWaGDWnjMu-2" target="xZrWV2Vu18TWaGDWnjMu-4">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-2" target="xZrWV2Vu18TWaGDWnjMu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;采用预路由的方式给每一个时间敏感流分配路由路径&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;采用预路由的方式给每一个时间敏感流分配路由路径&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="150" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZrWV2Vu18TWaGDWnjMu-4" target="xZrWV2Vu18TWaGDWnjMu-6">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-4" target="xZrWV2Vu18TWaGDWnjMu-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-4" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;选用CQF作为流量整型机制，对流和网络进行建模&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-4" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;选用CQF作为流量整型机制，对流和网络进行建模&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="250" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZrWV2Vu18TWaGDWnjMu-6" target="xZrWV2Vu18TWaGDWnjMu-8">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-6" target="xZrWV2Vu18TWaGDWnjMu-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;建立流的约束和对应的目标函数&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;建立流的约束和对应的目标函数&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="350" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZrWV2Vu18TWaGDWnjMu-8" target="xZrWV2Vu18TWaGDWnjMu-10">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-8" target="xZrWV2Vu18TWaGDWnjMu-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;求解目标函数得到最优条件下时隙大小和CQF队列长度的线性关系&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;求解目标函数得到最优条件下时隙大小和CQF队列长度的线性关系&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="440" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-10" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;使用启发式的算法分配注入时隙偏移量&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-10" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;使用启发式的算法分配注入时隙偏移量&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="540" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
