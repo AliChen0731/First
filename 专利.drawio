@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T14:34:09.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1jQppau4CZJtwuJfecRL" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T11:45:53.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vBo4cPFGxBpQGXNaeG-q" version="21.2.1" type="github">
   <diagram name="Page-1" id="kI8muQVpeAFegMSgDHn2">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,23 +19,42 @@
         <mxCell id="xZrWV2Vu18TWaGDWnjMu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-4" target="xZrWV2Vu18TWaGDWnjMu-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-4" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;选用CQF作为流量整型机制，对流和网络进行建模，分析时隙大小和CQF队列长度对调度的协同影响&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-4" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;配置队列容量&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="250" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-6" target="xZrWV2Vu18TWaGDWnjMu-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-6" target="8Rt1c0fbSjUeua72rSzs-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;建立流的约束和对应的目标函数&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;计算最优确定性抖动和最小平均队列溢出率&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="350" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xZrWV2Vu18TWaGDWnjMu-8" target="xZrWV2Vu18TWaGDWnjMu-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="xZrWV2Vu18TWaGDWnjMu-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="500" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;求解目标函数得到最优条件下时隙大小和CQF队列长度的线性关系&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="440" width="320" height="60" as="geometry" />
+        <mxCell id="xZrWV2Vu18TWaGDWnjMu-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;选出最优时隙大小，注入时隙偏移量和队列容量&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="570" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xZrWV2Vu18TWaGDWnjMu-10" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;使用启发式的算法分配注入时隙偏移量&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="540" width="320" height="60" as="geometry" />
+        <mxCell id="8Rt1c0fbSjUeua72rSzs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rt1c0fbSjUeua72rSzs-1" target="xZrWV2Vu18TWaGDWnjMu-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="490" />
+              <mxPoint x="230" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rt1c0fbSjUeua72rSzs-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;平均队列溢出率是否为0&lt;br&gt;或者超过迭代次数?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="273.75" y="450" width="332.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rt1c0fbSjUeua72rSzs-5" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rt1c0fbSjUeua72rSzs-6" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="538" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
