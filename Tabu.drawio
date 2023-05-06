@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T16:14:50.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.7" etag="OodtSqSJQovC3FoFT8Hm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T16:26:53.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LI-1NJloTS2icgzjwou_" version="21.2.7" type="github">
   <diagram name="Page-1" id="S6rVR623d7gk2nZKaZCJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-1" target="SZjGEb6NWXr-4K9bMzya-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;产生初始解，禁忌列表清空&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-2" target="SZjGEb6NWXr-4K9bMzya-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="600" />
+              <mxPoint x="90" y="600" />
+              <mxPoint x="90" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-2" target="SZjGEb6NWXr-4K9bMzya-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;是否满足终止条件？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="500" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-3" target="SZjGEb6NWXr-4K9bMzya-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;产生邻域，获取候选解集&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="110" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.48;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-4" target="SZjGEb6NWXr-4K9bMzya-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;在候选解集中挑选出禁忌列表中不存在的最优解作为当前最优解&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="210" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.471;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-5" target="SZjGEb6NWXr-4K9bMzya-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-5" target="SZjGEb6NWXr-4K9bMzya-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;是否有解满足破禁条件&lt;br&gt;或者达到禁忌步长？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="400" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-6" target="SZjGEb6NWXr-4K9bMzya-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-6" target="SZjGEb6NWXr-4K9bMzya-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-6" target="SZjGEb6NWXr-4K9bMzya-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;是否比全局最优解要优？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="290" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-7" target="SZjGEb6NWXr-4K9bMzya-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;将该解从禁忌列表中清除&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZjGEb6NWXr-4K9bMzya-8" target="SZjGEb6NWXr-4K9bMzya-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;更新全局最优解并加入到禁忌列表当中&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-21" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-22" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-23" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="408" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="568" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZjGEb6NWXr-4K9bMzya-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;输出最优解，算法结束&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
