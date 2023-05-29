@@ -1,9 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T18:00:31.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.7" etag="xMbzPNWGWdNcIf4hTvuR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T19:55:08.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lERdfi7QOEpwTE9_pef8" version="21.3.5" type="github">
   <diagram name="Page-1" id="pigTC-GvH5l43irFrhuR">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-1" target="hdcfxsLSaZgbyDAUEj8j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;获取各基站，设备和各服务的参数，初始化服务的成功解码率&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201.25" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-2" target="hdcfxsLSaZgbyDAUEj8j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;基于随机过程理论推导出服务的随机矩阵，从而分析抢占机制对优先级业务的队列状态跳转影响&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="282.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-3" target="hdcfxsLSaZgbyDAUEj8j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-3" target="hdcfxsLSaZgbyDAUEj8j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;独立方案？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235.63" y="250" width="211.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-4" target="hdcfxsLSaZgbyDAUEj8j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;计算多队列下的状态，稳态分布和丢包率，通过设置队列的空闲概率计算出独立方案非空闲设备的传输密度&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-5" target="hdcfxsLSaZgbyDAUEj8j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-5" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;计算多队列下的独立方案下平稳状态分布和丢包率，得到服务的随机矩阵&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-6" target="hdcfxsLSaZgbyDAUEj8j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;计算优先方案的稳定状态分布和丢包率，计算出优先级方案的非空闲设备传输密度&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-8" target="hdcfxsLSaZgbyDAUEj8j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;计算覆盖概率和成功解码率&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260.63" y="530" width="161.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.465;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-10" target="hdcfxsLSaZgbyDAUEj8j-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hdcfxsLSaZgbyDAUEj8j-10" target="hdcfxsLSaZgbyDAUEj8j-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="660" />
+              <mxPoint x="80" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;是否满足要求？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235.63" y="620" width="211.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;输出丢包率&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="740" width="161.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-21" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-27" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="628" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hdcfxsLSaZgbyDAUEj8j-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="708" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
